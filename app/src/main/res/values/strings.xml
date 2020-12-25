@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Галерея</string>
+    <string name="option_flickr_search_hint">Поиск на Flickr</string>
+    <string name="option_local_db_hint">Локальная база</string>
+    <string name="option_drop_db_hint">Удалить базу</string>
+    <string name="picture">Изо бражение</string>
+
+</resources>

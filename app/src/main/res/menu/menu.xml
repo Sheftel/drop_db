@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".ui.home.activities.TransactionSearchActivity">
+    <item
+            android:id="@+id/option_flickr_search"
+            android:icon="@android:drawable/ic_menu_search"
+            android:title="@string/option_flickr_search_hint"
+            app:actionViewClass="androidx.appcompat.widget.SearchView"
+            app:showAsAction="never|collapseActionView"
+            android:onClick="switchToFlickr"/>
+
+    <item
+            android:id="@+id/option_local_db"
+            android:title="@string/option_local_db_hint"
+            app:showAsAction="never"
+            android:onClick="switchToLocal"/>
+
+    <item
+            android:id="@+id/option_drop_db"
+            android:title="@string/option_drop_db_hint"
+            app:showAsAction="never"
+            android:onClick="dropTheBase"/>
+</menu>
